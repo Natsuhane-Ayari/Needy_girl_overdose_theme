@@ -1,0 +1,44 @@
+@import url("resource:///org/numixproject/gtk/dist/gtk.css");
+
+.xfce4-panel.background{
+    background-color: #f3e1f7;
+}
+
+.tasklist button{
+    margin: 2px;
+    background-color: #f3e1f7;
+    border: #7c60d7 2px solid;
+    border-style: outset;
+}
+
+.tasklist button:checked{
+    margin: 2px;
+    background-color: #f3e1f7;
+    border: #7c60d7 2px solid;
+    border-style: inset;
+}
+
+#clock-button{
+    margin: 2px;
+    border: #7c60d7 2px solid;
+    border-style: inset;
+}
+
+#whiskermenu-button{
+    margin: 2px;
+    border: #7c60d7 2px solid;
+    border-style: outset;
+}
+
+#whiskermenu-button:checked{
+    border-style: inset;
+    background-color: #f3e1f7;
+}
+
+#whiskermenu-button:hover{
+    background-color: #f3e1f7;
+}
+
+#whiskermenu-button label{
+    color: #000000;
+}
