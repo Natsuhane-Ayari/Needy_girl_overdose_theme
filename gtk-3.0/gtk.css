@@ -4,35 +4,32 @@
     background-color: #f3e1f7;
 }
 
-.tasklist button{
-    margin: 2px;
-    background-color: #f3e1f7;
-    border: #7c60d7 2px solid;
-    border-style: outset;
-}
-
-.tasklist button:checked{
-    margin: 2px;
-    background-color: #f3e1f7;
-    border: #7c60d7 2px solid;
-    border-style: inset;
-}
-
 #clock-button{
-    margin: 2px;
-    border: #7c60d7 2px solid;
-    border-style: inset;
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 7px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 7;
+    border-image-source: url('./assets/task-button-border-inset.png');
 }
 
 #whiskermenu-button{
-    margin: 2px;
-    border: #7c60d7 2px solid;
+
+    background-color: #f3e1f7;
     border-style: outset;
+    border: 7px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 7;
+    border-image-source: url('./assets/task-button-border-outset.png');
 }
 
 #whiskermenu-button:checked{
-    border-style: inset;
     background-color: #f3e1f7;
+    border-style: outset;
+    border: 7px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 7;
+    border-image-source: url('./assets/task-button-border-inset.png');
 }
 
 #whiskermenu-button:hover{
@@ -41,4 +38,61 @@
 
 #whiskermenu-button label{
     color: #000000;
+}
+button{
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 2px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 2;
+    border-image-source: url('../assets/button-frame-outset.png');
+    background-color: #f3e1f7;
+}
+
+button:checked{
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 2px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 2;
+    border-image-source: url('../assets/button-frame-inset.png');
+    background-color: #f3e1f7;
+}
+
+button:active{
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 2px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 2;
+    border-image-source: url('../assets/button-frame-inset.png');
+    background-color: #f3e1f7;
+}
+
+.tasklist button{
+
+    
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 7px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 7;
+    border-image-source: url('./assets/task-button-border-outset.png');
+    
+}
+
+.tasklist button:checked{
+
+    background-color: #f3e1f7;
+    border-style: outset;
+    border: 7px solid transparent;
+    border-image-repeat: round;
+    border-image-slice: 7;
+    border-image-source: url('./assets/task-button-border-inset.png');
+
+
+}
+
+#sn-button,#xfce4-notification-plugin,#xfce4-power-manager-plugin,#pulseaudio-button,#indicator-button{
+    border: none;
 }
