@@ -96,3 +96,63 @@ button:active{
 #sn-button,#xfce4-notification-plugin,#xfce4-power-manager-plugin,#pulseaudio-button,#indicator-button{
     border: none;
 }
+.titlebar{
+    background-color: #ead2ec;
+    background-image: url('./assets/title-1-active.png');
+    background-repeat: round;
+}
+.titlebar:backdrop{
+    background-color: #e2e2e0;
+    background-image: url('./assets/title-1-inactive.png');
+    background-repeat: round;
+}
+.titlebar button.titlebutton.close{
+    color: transparent;
+    background-image: url('./assets/close-active.png');
+}
+.titlebar button.titlebutton.close:backdrop{
+    color: transparent;
+    background-image: url('./assets/close-inactive.png');
+}
+.titlebar button.titlebutton.close:hover{
+    color: transparent;
+    background-image: url('./assets/close-prelight.png');
+}
+.titlebar button.titlebutton.close:active{
+    color: transparent;
+    background-image: url('./assets/close-prelight.png');
+}
+
+.titlebar button.titlebutton.maximize{
+    color: transparent;
+    background-image: url('./assets/maximize-active.png');
+}
+.titlebar button.titlebutton.maximize:backdrop{
+    color: transparent;
+    background-image: url('./assets/maximize-inactive.png');
+}
+.titlebar button.titlebutton.maximize:hover{
+    color: transparent;
+    background-image: url('./assets/maximize-prelight.png');
+}
+.titlebar button.titlebutton.maximize:active{
+    color: transparent;
+    background-image: url('./assets/maximize-prelight.png');
+}
+
+.titlebar button.titlebutton.minimize{
+    color: transparent;
+    background-image: url('./assets/hide-active.png');
+}
+.titlebar button.titlebutton.minimize:backdrop{
+    color: transparent;
+    background-image: url('./assets/hide-inactive.png');
+}
+.titlebar button.titlebutton.minimize:hover{
+    color: transparent;
+    background-image: url('./assets/hide-prelight.png');
+}
+.titlebar button.titlebutton.minimize:active{
+    color: transparent;
+    background-image: url('./assets/hide-prelight.png');
+}

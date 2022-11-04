@@ -13,7 +13,7 @@
    ```sh
    mv Needy_girl_overdose_theme/ .themes/
    ```
-4. Go <ins>**Settings --> Window Manager**</ins>
+4. Go to <ins>**Settings --> Window Manager**</ins>
    Select theme to <ins>**Needy_girl_overdose_theme**</ins>
    And set <ins>**Title Alignment**</ins> to <ins>Left</ins>
 5. Back to All Settings, Then go to <ins>**Apperance**</ins>
