@@ -1,4 +1,6 @@
 # Needy_girl_overdose_theme
+![image](./images/screenshot1.png)
+![image](./images/screenshot2.png)
 ## How to use?
 1. Clone this project
    ```sh
